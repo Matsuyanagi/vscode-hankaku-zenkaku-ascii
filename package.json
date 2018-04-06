@@ -36,7 +36,27 @@
                 "command": "extension.zenkakuAscii",
                 "title": "Convert to Zenkaku Ascii"
             }
-        ]
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Hankaku Zenkaku Ascii",
+            "properties": {
+                "hankakuZenkakuAscii.U005C_toFullWidthYenSign": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "true:U+005C convert to U+FFE5 fullwidth yen sign.\nfalse:0x5c convert to U+FF3C fullwidth backslash."
+                },
+                "hankakuZenkakuAscii.fullwidthYensignTohankakuYenSign": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "true:U+FFE5 convert to U+00A5 halfwidth yen sign.\nfalse:U+FFE5 convert to U+005C halfwidth backslash(yen sign)."
+                }
+            },
+            "default": {
+                "U005C_toFullWidthYenSign": false,
+                "fullwidthYensignTohankakuYenSign": false
+            }
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
