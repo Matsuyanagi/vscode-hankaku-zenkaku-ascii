@@ -10,15 +10,31 @@
     "categories": [
         "Other"
     ],
+    "keywords": [
+        "hankaku",
+        "zenkaku",
+        "fullwidth",
+        "halfwidth",
+        "convert"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Matsuyanagi/vscode-hankaku-zenkaku-ascii.git"
+    },
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.hankakuAscii",
+        "onCommand:extension.zenkakuAscii"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.hankakuAscii",
+                "title": "Convert to Hankaku Ascii"
+            },
+            {
+                "command": "extension.zenkakuAscii",
+                "title": "Convert to Zenkaku Ascii"
             }
         ]
     },
