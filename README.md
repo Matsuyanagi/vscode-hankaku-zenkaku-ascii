@@ -18,11 +18,12 @@ Convert these characters to full-width <-> half-width characters.
 	｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏ
 	ｐｑｒｓｔｕｖｗｘｙｚ｛｜｝～
 
-\!\[feature X\]\(images/feature-x.png\)
+![convert hankaku zenkaku 01](images/hankakuzenkaku01.gif)
+![convert hankaku zenkaku 02](images/hankakuzenkaku02.gif)
 
 ## Available Command
-* extension.hankakuAscii : Convert zenkaku characters to hankaku
-* extension.zenkakuAscii : Convert hankaku characters to zenkaku
+* extension.hankakuAscii : Convert zenkaku ascii characters to hankaku
+* extension.zenkakuAscii : Convert hankaku ascii characters to zenkaku
 
 ## Known Issues
 It does not correspond to half/full-width katakana.
