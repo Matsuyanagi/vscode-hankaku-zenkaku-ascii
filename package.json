@@ -2,7 +2,7 @@
     "name": "hankaku-zenkaku-ascii",
     "displayName": "Hankaku Zenkaku Ascii",
     "description": "Convert hankaku <-> zenkaku ascii character.",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "Matsuyanagi",
     "engines": {
         "vscode": "^1.73.0"
